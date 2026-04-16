@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "required": [
+        "pageSize",
+        "totalSize",
+        "items"
+    ],
+    "properties": {
+        "pageSize": {
+            "type": "number"
+        },
+        "totalSize": {
+            "type": "number"
+        },
+        "items": {
+            "type": "array"
+        }
+    }
+}

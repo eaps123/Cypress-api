@@ -1,0 +1,105 @@
+{
+  "env": {
+    "login": {
+      "token": "900cca89-da65-4587-b810-60d5ee3f1675",
+      "token_unauthorized": "token_unauthorized"
+    },
+    "url": {
+      "user": "https://serverest.dev",
+      "url_login_tag_export": "https://visaotecnica.movidesktest.com/Account/Login?",
+      "url_tag_export_to_async_csv": "https://visaotecnica.movidesktest.com/Tag/ExportToAsync/CSV",
+      "url_create_new_api_token": "https://accessolutions.movidesktest.com/TenantParameter/CreateNewApiToken",
+      "url_base_v1": "https://visaotecnica.movidesktest.com/public/v1",
+      "url_base_new_tickets": "https://movidesk-ticket-api.app.movidesktest.com/public/v1",
+      "url_base_new_kb_v1": "https://movidesk-kb-api.app.movidesktest.com/public/v1",
+      "url_zsvc_sso_accounts": "http://zsvc-sso-accounts-api.stg.lan.zenvia360.com"
+    },
+    "ticket": {
+      "id": "1414516243",
+      "protocol": "",
+      "clients_id": "1414516243",
+      "select_params": "id,type,subject,category",
+      "subject_update": "TESTE AUTOMATION UPDATE"
+    },
+    "person": {
+      "id": "017c78ed-8f7e-4727-",
+      "cod_ref_person": "50ecb6f9-425b-47af-",
+      "id_person_not_found": "1146036470",
+      "id_person_relationships": "1347743285",
+      "business_name": "Automation API Cypress",
+      "business_name_update": "Automation API Cypress Update",
+      "email_update": "automation-api-updatePerson@movidesk.com",
+      "email_create": "automation-api-createPerson@movidesk.com",
+      "email_nothing": ""
+    },
+    "ticketCustomFieldValue": {
+      "customfieldid": "5297"
+    },
+
+    "timeAgreement": {
+      "email_subject": "Assunto",
+      "clients_id": "1414516243",
+      "id_not_found": "123",
+      "select": "id,name,emailSubject"
+    },
+
+    "activity": {
+      "id": "2961",
+      "id_not_found": "1234"
+    },
+
+    "services": {
+      "name": "AUTOMATION NAME",
+      "description": "Teste do serviço"
+    },
+
+    "timeAgreementConsumption": {
+      "renewalDay": 23,
+      "name": "Contrato",
+      "id": 1238,
+      "select": "renewalDay,name,id"
+    },
+
+    "kb": {
+      "q": "automation-cypress-staging",
+      "title": "automation-cypress-staging",
+      "title_tags": "QA-1965",
+      "updated_date_from": "2023-12-05",
+      "updated_date_to": "2023-06-01",
+      "createdDateFrom": "2023-12-05",
+      "createdDateTo": "2023-12-05",
+      "pageSize": "10",
+      "page": "0",
+      "tags": "QA-1965",
+      "category": "Categoria",
+      "status_4": "4",
+      "status_1": "1",
+      "menu": "menu-1",
+      "id_art_1": "370625",
+      "summary": "teste-artigo-1",
+      "id_art_2": "405136"
+    },
+
+    "sso": {
+      "email_invalid": "fabio.santos@zenvia",
+      "password_signin": "@Zenvia123",
+      "email_blank": "",
+      "email_character": "!@#",
+      "email_with_spaces": "  ",
+      "email_not_on_base": "fabio.email_not_on_base@gmail.com",
+      "email_more_than_128_characters": "xpto@serviceooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.com",
+      "email_exist_on_base": "fabio.santos@gmail.com",
+      "person_id": "b5e82c69-23ff-430f-"
+    },
+
+    "tagExportCSV": {
+      "userName": "automation.api.tags",
+      "password": "12345678",
+      "AppIntegrationUuid": "515c8c15-7eb8-4c0f-881b-9f222876acc6",
+      "ApiToken": "900cca89-da65-4587-b810-60d5ee3f1675",
+      "ApiUrl": "https://visaotecnica.movidesktest.com/internal/v1/tags/export",
+      "UserId": "1279493",
+      "TenantId": "1707"
+    }  
+  }
+}

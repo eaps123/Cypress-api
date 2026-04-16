@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "description",
+        "parentServiceId",
+        "serviceForTicketType",
+        "isVisible",
+        "allowSelection",
+        "allowFinishTicket",
+        "isActive",
+        "automationMacro",
+        "defaultCategory",
+        "defaultUrgency",
+        "allowAllCategories",
+        "categories"
+    ],
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "parentServiceId": {
+            "type": "null"
+        },
+        "serviceForTicketType": {
+            "type": "number"
+        },
+        "isVisible": {
+            "type": "number"
+        },
+        "allowSelection": {
+            "type": "number"
+        },
+        "allowFinishTicket": {
+            "type": "boolean"
+        },
+        "isActive": {
+            "type": "boolean"
+        },
+        "automationMacro": {
+            "type": "null"
+        },
+        "defaultCategory": {
+            "type": "string"
+        },
+        "defaultUrgency": {
+            "type": "null"
+        },
+        "allowAllCategories": {
+            "type": "boolean"
+        },
+        "categories": {
+            "type": "array"
+        }
+    }
+}

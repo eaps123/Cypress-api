@@ -1,0 +1,87 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "emailSubject",
+        "emailDescription",
+        "emailAccount",
+        "isActive",
+        "differentiateHoursFranchise",
+        "differentiateHoursConsumption",
+        "accumulateUnusedHours",
+        "renewalDay",
+        "contractedHours",
+        "consumptionDeadline",
+        "emailSendDay",
+        "baseAmount",
+        "createdOn",
+        "disabledDate",
+        "typeActivities",
+        "timeTypeConsumption",
+        "clients",
+        "emailDestinations"
+    ],
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string"
+        },
+        "emailSubject": {
+            "type": "string"
+        },
+        "emailDescription": {
+            "type": "string"
+        },
+        "emailAccount": {
+            "type": null
+        },
+        "isActive": {
+            "type": "boolean"
+        },
+        "differentiateHoursFranchise": {
+            "type": "boolean"
+        },
+        "differentiateHoursConsumption": {
+            "type": "boolean"
+        },
+        "accumulateUnusedHours": {
+            "type": "boolean"
+        },
+        "renewalDay": {
+            "type": "number"
+        },
+        "contractedHours": {
+            "type": "number"
+        },
+        "consumptionDeadline": {
+            "type": "null"
+        },
+        "emailSendDay": {
+            "type": "null"
+        },
+        "baseAmount": {
+            "type": "number"
+        },
+        "createdOn": {
+            "type": "string"
+        },
+        "disabledDate": {
+            "type": "null"
+        },
+        "typeActivities": {
+            "type": "array"
+        },
+        "timeTypeConsumption": {
+            "type": "array"
+        },
+        "clients": {
+            "type": "array"
+        },
+        "emailDestinations": {
+            "type": "array"
+        }
+    }
+}

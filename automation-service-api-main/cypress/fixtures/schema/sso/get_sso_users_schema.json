@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "required": [
+      "email",
+      "name",
+      "accounts"
+  ],
+  "properties": {
+      "email": {
+          "type": "string"
+      },
+      "name": {
+          "type": "string"
+      },
+      "accounts": {
+          "type": "array",
+          "items": {
+              "type": "object",
+              "required": [
+                  "id",
+                  "name",
+                  "legalName",
+                  "legalDocumentNumber",
+                  "legalDocumentType",
+                  "urlRedirect",
+                  "organizationId"
+
+              ],
+              "properties": {
+                  "id": {
+                      "type": "string"
+                  },
+                  "name": {
+                      "type": "string"
+                  },
+                  "legalName": {
+                      "type": "string"
+                  },
+                  "legalDocumentNumber": {
+                      "type": "string"
+                  },
+                  "legalDocumentType": {
+                      "type": "string"
+                  },
+                  "urlRedirect": {
+                      "type": "string"
+                  },
+                  "organizationId": {
+                      "type": "string"
+                  },
+                  "user": {
+                      "type": "object",
+                      "required": [
+                          "profile",
+                          "status"
+                      ],
+                      "properties": {
+                          "profile": {
+                              "type": "string"
+                          },
+                          "status": {
+                              "type": "string"
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

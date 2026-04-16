@@ -1,0 +1,583 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "def",
+        "appIntegrationId",
+        "status",
+        "updatedAt",
+        "history",
+        "result",
+        "isFinalStatus"
+    ],
+    "properties": {
+        "id": {
+            "type": "object",
+            "required": [
+                "tenantId",
+                "seq"
+            ],
+            "properties": {
+                "tenantId": {
+                    "type": "number"
+                },
+                "seq": {
+                    "type": "number"
+                }
+            }
+        },
+        "def": {
+            "type": "object",
+            "required": [
+                "specId",
+                "title",
+                "params"
+            ],
+            "properties": {
+                "specId": {
+                    "type": "object",
+                    "required": [
+                        "name",
+                        "tag",
+                        "str"
+                    ],
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "tag": {
+                            "type": "string"
+                        },
+                        "str": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "title": {
+                    "type": "string"
+                },
+                "params": {
+                    "type": "object",
+                    "required": [
+                        "userId",
+                        "tenantId",
+                        "export",
+                        "model",
+                        "apiToken",
+                        "apiUrl",
+                        "movideskOrigin"
+                    ],
+                    "properties": {
+                        "userId": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        },
+                        "tenantId": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        },
+                        "export": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        },
+                        "model": {
+                            "type": "object",
+                            "required": [
+                                "start",
+                                "limit",
+                                "endData",
+                                "count",
+                                "orderBy",
+                                "orderIsAsc"
+                            ],
+                            "properties": {
+                                "start": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                },
+                                "limit": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                },
+                                "endData": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                },
+                                "count": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                },
+                                "orderBy": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                },
+                                "orderIsAsc": {
+                                    "type": "object",
+                                    "required": [
+                                        "_value",
+                                        "value",
+                                        "options"
+                                    ],
+                                    "properties": {
+                                        "_value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "object",
+                                            "required": [
+                                                "valueKind"
+                                            ],
+                                            "properties": {
+                                                "valueKind": {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "options": {
+                                            "type": "null"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "apiToken": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        },
+                        "apiUrl": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        },
+                        "movideskOrigin": {
+                            "type": "object",
+                            "required": [
+                                "_value",
+                                "value",
+                                "options"
+                            ],
+                            "properties": {
+                                "_value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "object",
+                                    "required": [
+                                        "valueKind"
+                                    ],
+                                    "properties": {
+                                        "valueKind": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "type": "null"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "appIntegrationId": {
+            "type": "object",
+            "required": [
+                "uuid",
+                "name"
+            ],
+            "properties": {
+                "uuid": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "status": {
+            "type": "number"
+        },
+        "updatedAt": {
+            "type": "string"
+        },
+        "history": {
+            "type": "object",
+            "required": [
+                "createdBy",
+                "createdAt",
+                "waitedAt",
+                "startedAt",
+                "ranAt",
+                "finishedAt"
+            ],
+            "properties": {
+                "createdBy": {
+                    "type": "object",
+                    "required": [
+                        "tenantId",
+                        "personId",
+                        "displayName"
+                    ],
+                    "properties": {
+                        "tenantId": {
+                            "type": "number"
+                        },
+                        "personId": {
+                            "type": "number"
+                        },
+                        "displayName": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "createdAt": {
+                    "type": "string"
+                },
+                "waitedAt": {
+                    "type": "null"
+                },
+                "startedAt": {
+                    "type": "null"
+                },
+                "ranAt": {
+                    "type": "null"
+                },
+                "finishedAt": {
+                    "type": "null"
+                }
+            }
+        },
+        "result": {
+            "type": "null"
+        },
+        "isFinalStatus": {
+            "type": "boolean"
+        }
+    }
+}

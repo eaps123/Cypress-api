@@ -1,0 +1,60 @@
+{
+    "type": "object",
+    "required": [
+        "type",
+        "appIntegrationUuid",
+        "def"
+    ],
+    "properties": {
+        "type": {
+            "type": "number"
+        },
+        "appIntegrationUuid": {
+            "type": "string"
+        },
+        "def": {
+            "type": "object",
+            "required": [
+                "spec",
+                "title",
+                "params"
+            ],
+            "properties": {
+                "spec": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "params": {
+                    "type": "object",
+                    "required": [
+                        "apiToken",
+                        "apiUrl",
+                        "userId",
+                        "tenantId",
+                        "cultureInfo",
+                        "movideskOrigin"
+                    ],
+                    "properties": {
+                        "userId": {
+                            "type": "number"
+                        },
+                        "tenantId": {
+                            "type": "number"
+                        },
+                        "apiToken": {
+                            "type": "number"
+                        },
+                        "apiUrl": {
+                            "type": "string"
+                        },
+                        "movideskOrigin": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}        

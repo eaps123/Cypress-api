@@ -1,0 +1,287 @@
+{
+    "type": "object",
+    "required": [
+        "id",
+        "type",
+        "subject",
+        "category",
+        "urgency",
+        "status",
+        "baseStatus",
+        "justification",
+        "origin",
+        "createdDate",
+        "isDeleted",
+        "originEmailAccount",
+        "owner",
+        "ownerTeam",
+        "createdBy",
+        "serviceFull",
+        "serviceFirstLevelId",
+        "serviceFirstLevel",
+        "serviceSecondLevel",
+        "serviceThirdLevel",
+        "contactForm",
+        "tags",
+        "cc",
+        "resolvedIn",
+        "closedIn",
+        "canceledIn",
+        "actionCount",
+        "lifeTimeWorkingTime",
+        "stoppedTime",
+        "stoppedTimeWorkingTime",
+        "resolvedInFirstCall",
+        "chatWidget",
+        "chatGroup",
+        "chatTalkTime",
+        "chatWaitingTime",
+        "sequence",
+        "slaAgreement",
+        "slaAgreementRule",
+        "slaSolutionTime",
+        "slaResponseTime",
+        "slaSolutionChangedByUser",
+        "slaSolutionChangedBy",
+        "slaSolutionDate",
+        "slaSolutionDateIsPaused",
+        "jiraIssueKey",
+        "redmineIssueId",
+        "movideskTicketNumber",
+        "linkedToIntegratedTicketNumber",
+        "reopenedIn",
+        "lastActionDate",
+        "lastUpdate",
+        "slaResponseDate",
+        "slaRealResponseDate",
+        "clients",
+        "actions",
+        "parentTickets",
+        "childrenTickets",
+        "ownerHistories",
+        "statusHistories",
+        "satisfactionSurveyResponses",
+        "customFieldValues",
+        "assets",
+        "webhookEvents"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "type": {
+            "type": "number"
+        },
+        "subject": {
+            "type": "string"
+        },
+        "category": {
+            "type": "null"
+        },
+        "urgency": {
+            "type": "null"
+        },
+        "status": {
+            "type": "string"
+        },
+        "baseStatus": {
+            "type": "string"
+        },
+        "justification": {
+            "type": "null"
+        },
+        "origin": {
+            "type": "number"
+        },
+        "createdDate": {
+            "type": "string"
+        },
+        "isDeleted": {
+            "type": "boolean"
+        },
+        "originEmailAccount": {
+            "type": "null"
+        },
+        "owner": {
+            "type": "null"
+        },
+        "ownerTeam": {
+            "type": "null"
+        },
+        "createdBy": {
+            "type": "object",
+            "required": [
+                "id",
+                "personType",
+                "profileType",
+                "businessName",
+                "email",
+                "phone"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "personType": {
+                    "type": "number"
+                },
+                "profileType": {
+                    "type": "number"
+                },
+                "businessName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "null"
+                }
+            }
+        },
+        "serviceFull": {
+            "type": "array"
+        },
+        "serviceFirstLevelId": {
+            "type": "null"
+        },
+        "serviceFirstLevel": {
+            "type": "null"
+        },
+        "serviceSecondLevel": {
+            "type": "null"
+        },
+        "serviceThirdLevel": {
+            "type": "null"
+        },
+        "contactForm": {
+            "type": "null"
+        },
+        "tags": {
+            "type": "array"
+        },
+        "cc": {
+            "type": "null"
+        },
+        "resolvedIn": {
+            "type": "string"
+        },
+        "closedIn": {
+            "type": "string"
+        },
+        "canceledIn": {
+            "type": "null"
+        },
+        "actionCount": {
+            "type": "number"
+        },
+        "lifeTimeWorkingTime": {
+            "type": "null"
+        },
+        "stoppedTime": {
+            "type": "null"
+        },
+        "stoppedTimeWorkingTime": {
+            "type": "null"
+        },
+        "resolvedInFirstCall": {
+            "type": "boolean"
+        },
+        "chatWidget": {
+            "type": "null"
+        },
+        "chatGroup": {
+            "type": "null"
+        },
+        "chatTalkTime": {
+            "type": "null"
+        },
+        "chatWaitingTime": {
+            "type": "null"
+        },
+        "sequence": {
+            "type": "null"
+        },
+        "slaAgreement": {
+            "type": "null"
+        },
+        "slaAgreementRule": {
+            "type": "null"
+        },
+        "slaSolutionTime": {
+            "type": "number"
+        },
+        "slaResponseTime": {
+            "type": "number"
+        },
+        "slaSolutionChangedByUser": {
+            "type": "boolean"
+        },
+        "slaSolutionChangedBy": {
+            "type": "null"
+        },
+        "slaSolutionDate": {
+            "type": "null"
+        },
+        "slaSolutionDateIsPaused": {
+            "type": "boolean"
+        },
+        "jiraIssueKey": {
+            "type": "null"
+        },
+        "redmineIssueId": {
+            "type": "null"
+        },
+        "movideskTicketNumber": {
+            "type": "null"
+        },
+        "linkedToIntegratedTicketNumber": {
+            "type": "null"
+        },
+        "reopenedIn": {
+            "type": "null"
+        },
+        "lastActionDate": {
+            "type": "string"
+        },
+        "lastUpdate": {
+            "type": "string"
+        },
+        "slaResponseDate": {
+            "type": "null"
+        },
+        "slaRealResponseDate": {
+            "type": "null"
+        },
+        "clients": {
+            "type": "array"
+        },
+        "actions": {
+            "type": "array"
+        },
+        "parentTickets": {
+            "type": "array"
+        },
+        "childrenTickets": {
+            "type": "array"
+        },
+        "ownerHistories": {
+            "type": "array"
+        },
+        "statusHistories": {
+            "type": "array"
+        },
+        "satisfactionSurveyResponses": {
+            "type": "array"
+        },
+        "customFieldValues": {
+            "type": "array"
+        },
+        "assets": {
+            "type": "array"
+        },
+        "webhookEvents": {
+            "type": "null"
+        }
+    }
+}

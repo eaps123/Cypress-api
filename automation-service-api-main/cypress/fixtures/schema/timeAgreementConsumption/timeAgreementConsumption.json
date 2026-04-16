@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "required": [
+        "renewalDay",
+        "name",
+        "id"
+    ],
+    "properties": {
+        "renewalDay": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string"
+        },
+        "id": {
+            "type": "number"
+        }
+    }
+}

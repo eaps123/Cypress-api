@@ -1,0 +1,43 @@
+{
+    "name": "automation-api-cypress",
+    "version": "1.0.0",
+    "description": "Projeto consiste em automatizar testes API no Framework Cypress.",
+    "main": "index.js",
+    "scripts": {
+        "test": "cypress run",
+        "cy:open": "cypress open",
+        "lint": "eslint cypress/**/*.js",
+        "lint:fix": "eslint cypress/**/*.js --fix",
+        "cy:open:prd": "cypress open --env configFile=prd",
+        "cy:open:staging": "cypress open --env configFile=staging",
+        "cy:open:canary": "cypress open --env configFile=canary",
+        "cy:test:prd": "cypress run --env configFile=prd",
+        "cy:test:staging": "cypress run --env configFile=staging",
+        "cy:test:canary": "cypress run --env configFile=canary"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fabiojfadsg/automation-api-cypress.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fabiojfadsg/automation-api-cypress/issues"
+    },
+    "homepage": "https://github.com/fabiojfadsg/automation-api-cypress#readme",
+    "devDependencies": {
+        "@cypress/grep": "^3.1.5",
+        "@faker-js/faker": "^7.6.0",
+        "ajv": "^8.12.0",
+        "browserstack-cypress-cli": "^1.28.2",
+        "chai-json-schema": "^1.5.1",
+        "cpf": "^2.0.1",
+        "cypress": "^13.6.6",
+        "cypress-plugin-api": "^2.11.1",
+        "cypress-terminal-report": "^5.3.12",
+        "eslint": "^8.57.0",
+        "eslint-plugin-cypress": "^2.15.1",
+        "joi": "^17.12.2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "required": [
+        "customfieldid",
+        "customfieldvalues"
+    ],
+    
+    "properties": {
+        "customfieldid": {
+            "type": "number"
+            },
+        "customfieldvalues": {
+            "type": "string",
+            "required": [
+                "oldname",
+                "newname"
+            ],
+            "properties": {
+                "oldname": {
+                    "type": "string"
+                },
+                "newname": {
+                    "type": "string"
+                }    
+            }  
+        }
+    }
+}

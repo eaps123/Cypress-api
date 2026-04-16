@@ -1,0 +1,27 @@
+{
+    "items": {
+        "required": [
+            "id",
+            "languages",
+            "isActive",
+            "type"
+        ],
+        "properties": {
+            "id": {},
+            "languages": {
+                "items": {
+                    "required": [
+                        "cultureId",
+                        "description"
+                    ],
+                    "properties": {
+                        "cultureId": {},
+                        "description": {}
+                    }
+                }
+            },
+            "isActive": {},
+            "type": {}
+        }
+    }
+}

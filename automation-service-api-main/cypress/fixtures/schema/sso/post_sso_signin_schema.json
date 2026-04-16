@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "required": [
+        "name",
+        "email",
+        "migrateToPlatform",
+        "existsManyAccounts"
+    ],
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "migrateToPlatform": {
+            "type": "boolean"
+        },
+        "existsManyAccounts": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "pageSize": 30,
+  "totalSize": 1,
+  "items": [
+    {
+      "id": 419732,
+      "title": "teste-artigo-1",
+      "summary": "teste-artigo-1",
+      "updatedAt": "2023-09-14T21:20:30.4776125Z",
+      "createdAt": "2023-09-14T21:20:05.3002095Z",
+      "status": 1,
+      "tags": [
+        "tags-1"
+      ],
+      "category": [
+        {
+          "id": 112919,
+          "name": "category-1"
+        }
+      ],
+      "menu": {
+        "id": 15522,
+        "name": "menu-1"
+      }
+    }
+  ]
+}

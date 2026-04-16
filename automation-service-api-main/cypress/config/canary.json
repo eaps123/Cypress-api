@@ -1,0 +1,120 @@
+{
+  "env": {
+    "login": {
+      "token": "a0ab0755-3043-4907-ba4c-21678d52e450",
+      "token_unauthorized": "token_unauthorized"
+    },
+    
+    "url": {
+      "user": "https://serverest.dev",
+      "url_login_tag_export": "https://web-automation-service-canary.movidesk.com/Account/Login?",
+      "url_tag_export_to_async_csv": "https://web-automation-service-canary.movidesk.com/Tag/ExportToAsync/CSV",
+      "url_base_v1": "https://web-automation-service-canary.movidesk.com/public/v1",
+      "url_create_new_api_token": "https://accessolutions.movidesktest.com/TenantParameter/CreateNewApiToken",
+      "url_base_new_tickets": "https://movidesk-ticket-api.app.movidesktest.com/public/v1",
+      "url_movi_schedule": "http://movi-scheduler.internal/public/v1",
+      "url_base_new_kb_v1": "https://api.movidesk.com/public/v1",
+      "url_zsvc_sso_accounts": "http://zsvc-sso-accounts-api.prd.lan.zenvia360.com"
+    },
+
+    "ticket": {
+      "protocol": "",
+      "subject_update": "TESTE AUTOMATION UPDATE"
+    },
+
+    "person": {
+      "id": "4413",
+      "cod_ref_person": "1755756144",
+      "id_person_not_found": "1146036470",
+      "id_person_relationships": "1445",
+      "business_name": "Automation API Cypress",
+      "business_name_update": "Automation API Cypress Update",
+      "email_update": "automation-api-updatePerson@movidesk.com",
+      "email_create": "automation-api-createPerson@movidesk.com",
+      "email_nothing": ""
+    },
+
+    "timeAgreement": {
+      "email_subject": "Assunto",
+      "clients_id": "451508070",
+      "id_not_found": "123",
+      "select": "id,name,emailSubject"
+    },
+
+    "activity": {
+      "id": "157115",
+      "id_not_found": "1234"
+    },
+
+    "services": {
+      "name": "AUTOMATION NAME",
+      "update_name": "AUTOMATION NAME UPDATE",
+      "description": "Teste do serviço"
+    },
+
+    "timeAgreementConsumption": {
+      "renewalDay": 23,
+      "name": "TODO",
+      "id": 1238,
+      "select": "renewalDay,name,id"
+    },
+
+    "ticketCustomFieldValue": {
+      "customfieldid": "159182"
+    },
+
+    "moviSchedule": {
+      "headerTenantId": 34849,
+      "headerAuthorId": 1919771144,
+      "appIntegrationUuid": "169b8dfc-0375-41c1-a6a2-c2cb31538a40",
+      "userId": 1919771144,
+      "tenantId": 34849,
+      "typeFileExcel": "Excel",
+      "typeFileCsv": "CSV",
+      "apiToken": "7fa3eef3-50d2-49a3-81fe-912e3149c878",
+      "apiUrl": "https://automation-cypress-canary.movidesk.com/internal/v1/persons/export/"
+    },
+
+    "kb": {
+      "q": "automation-cypress-canary",
+      "title": "teste-artigo-1",
+      "title_tags": "Artigo sem link com animação",
+      "updated_date_from": "2023-07-18",
+      "updated_date_to": "2023-07-19",
+      "createdDateFrom": "2023-07-18",
+      "createdDateTo": "2023-07-19",
+      "pageSize": "10",
+      "page": "0",
+      "tags": "QA-1965",
+      "category": "Categoria",
+      "status_4": "4",
+      "status_1": "1",
+      "menu": "MenuKBAPI",
+      "id_art_1": "370625",
+      "summary": "teste-artigo-1",
+      "id_art_2": "405136"
+    },
+
+    "sso": {
+      "email_invalid": "fabio.santos@zenvia",
+      "password_signin": "12345678",
+      "email_blank": "",
+      "email_character": "!@#",
+      "email_with_spaces": "  ",
+      "email_not_on_base": "fabio.email_not_on_base@gmail.com",
+      "email_more_than_128_characters": "xpto@serviceooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.com",
+      "email_exist_on_base": "fabio.santos@gmail.com",
+      "person_id": "30e81bce-2183-4e46-"
+    },
+
+    "tagExportCSV": {
+      "userName": "automation.api.tags",
+      "password": "12345678",
+      "AppIntegrationUuid": "62b2795e-17e4-4d2d-b1f3-798100aaccbd",
+      "ApiToken": "a0ab0755-3043-4907-ba4c-21678d52e450",
+      "ApiUrl": "https://web-automation-service-canary.movidesk.com/internal/v1/tags/export",
+      "UserId": "66936528",
+      "TenantId": "37945"
+    }  
+  }
+}

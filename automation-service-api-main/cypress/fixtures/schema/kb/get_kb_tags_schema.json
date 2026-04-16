@@ -1,0 +1,95 @@
+{
+    "type": "object",
+    "required": [
+        "pageSize",
+        "totalSize",
+        "items"
+    ],
+    "properties": {
+        "pageSize": {
+            "type": "number"
+        },
+        "totalSize": {
+            "type": "number"
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "id",
+                    "title",
+                    "summary",
+                    "updatedAt",
+                    "createdAt",
+                    "status",
+                    "tags",
+                    "category",
+                    "menu"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "summary": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "updatedAt": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "string"
+                    },
+                    "status": {
+                        "type": "number"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "category": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "id",
+                                "name"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "number"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "menu": {
+                        "type": "object",
+                        "required": [
+                            "id",
+                            "name"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "number"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
